@@ -20,11 +20,10 @@ public:
 signals:
 
 public slots:
-    void update_overall();
+    void update_overall(int);
 
 private slots:
-
-    void on_checkBoxA_stateChanged(int arg1);
+    void on_checkBoxA_stateChanged(int arg1); 
     void on_checkBoxB_stateChanged(int arg1);
 
 private:
