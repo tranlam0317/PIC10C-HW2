@@ -3,7 +3,6 @@
 
 #include <QMainWindow>
 #include <QtGui>
-#include <vector>
 
 namespace Ui {
 class grade_calculator;
