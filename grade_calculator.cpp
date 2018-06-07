@@ -2,7 +2,6 @@
 #include "ui_grade_calculator.h"
 #include <iostream>
 #include <QtGui>
-#include <vector>
 using namespace  std;
 
 //Default Constructor
