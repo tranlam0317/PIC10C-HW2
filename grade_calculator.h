@@ -19,6 +19,7 @@ public:
 
 signals:
     void clicked(bool);
+    void stateChanged(int);
 
 public slots:
     void update_overall();
