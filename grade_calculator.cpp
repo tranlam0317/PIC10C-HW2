@@ -10,6 +10,9 @@ grade_calculator::grade_calculator(QWidget *parent) :
     ui(new Ui::grade_calculator)
 {
     ui->setupUi(this);
+        
+    // //Set fixed size for window (width, height)
+    setFixedSize(500,500);
 
     //Connections
     QObject::connect(ui->pushButton, SIGNAL(clicked(bool)), this, SLOT(update_overall()));
