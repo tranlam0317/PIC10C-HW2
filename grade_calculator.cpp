@@ -42,7 +42,6 @@ void grade_calculator::update_overall(){
 
     int midterm;
     int finalscore;
-    int homeworktotal;
 
     int hw1 = ui->doubleSpinBox->value();
     int hw2 = ui->doubleSpinBox_2->value();
@@ -53,7 +52,7 @@ void grade_calculator::update_overall(){
     int hw7 = ui->doubleSpinBox_7->value();
     int hw8 = ui->doubleSpinBox_8->value();
 
-    homeworktotal = compute_homework(hw1, hw2, hw3, hw4, hw5, hw6, hw7, hw8);
+    int homeworktotal = compute_homework(hw1, hw2, hw3, hw4, hw5, hw6, hw7, hw8);
 
     int midterm1 = ui->doubleSpinBox_9->value();
     int midterm2 = ui->doubleSpinBox_10->value();
