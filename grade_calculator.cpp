@@ -11,6 +11,7 @@ grade_calculator::grade_calculator(QWidget *parent) :
 {
     ui->setupUi(this);
 
+    //Connections
     QObject::connect(ui->pushButton, SIGNAL(clicked(bool)), this, SLOT(update_overall()));
     QObject::connect(ui->checkBoxA, SIGNAL(stateChanged(int)), this, SLOT(on_checkBoxA_stateChanged(int)));
     QObject::connect(ui->checkBoxB, SIGNAL(stateChanged(int)), this, SLOT(on_checkBoxB_stateChanged(int)));
