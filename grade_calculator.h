@@ -18,6 +18,7 @@ public:
     double compute_homework(int,int,int,int,int,int,int,int);
 
 signals:
+    void clicked(bool);
 
 public slots:
     void update_overall();
